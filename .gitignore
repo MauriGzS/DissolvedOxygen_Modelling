@@ -1,0 +1,22 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Raw data and large files
+data/
+*.csv
+*.xlsx
+*.parquet
+*.nc
+
+# Generated plots and notebooks checkpoints
+outputs/
+figures/
+.ipynb_checkpoints/
